@@ -6,7 +6,8 @@ O **PostCategory** é uma aplicação desenvolvida em Java com Spring Boot, proj
 
 - Java 17
 - Spring Boot 3.0.0
-- MySQL
+- MariaDB
+- DBeaver
 - Maven
 - Lombok
 
