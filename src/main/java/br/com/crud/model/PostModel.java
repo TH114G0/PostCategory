@@ -24,7 +24,7 @@ public class PostModel {
     private String content;
 
     @ManyToOne
-    @JoinColumn(name = "category_id")
+    @JoinColumn(name = "category_id", nullable = false)
     private CategoryModel category;
 
     public PostModel() {}
